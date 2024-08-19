@@ -1,0 +1,112 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+.search-bar input {
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 8px;
+  background: transparent url("search.svg") no-repeat 1px;
+  background-position: right;
+  display: block;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table thead {
+  background-color: #f1f1f1;
+}
+table th, table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.score {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+.score.green {
+  background-color: #4CAF50;
+}
+.score.red {
+  background-color: #f44336;
+}
+.score.orange {
+  background-color: orange;
+}
+.score.yellow {
+  background-color: rgb(248, 219, 55);
+}
+.score.grey {
+  background-color: gainsboro;
+}
+.actions a {
+  margin-right: 10px;
+  color: #3498db;
+  text-decoration: none;
+  text-align: center;
+}
+.text {
+  color: #1b83c9;
+  font-weight: bold;
+}
+.head {
+  background-color: rgb(241, 239, 239);
+}
+.button {
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+}
+.head.width {
+  width: 200px;
+}
+
+#top {
+  background-color: white;
+}
+#light{
+  font-weight: 300;
+}
+.learn {
+  text-decoration: none;
+}
+
+#overview select {
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  border: px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.overview {
+  width: 10px;
+}
