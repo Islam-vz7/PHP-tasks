@@ -57,6 +57,10 @@ $fruits = array("apple", "banana", "orange", "mango");
 
 $search = "banana";
 
+echo'The Array: ';
+print($fruit = '[' . implode(', ', $fruits) . ']');
+echo'<br>';
+
 if (in_array($search, $fruits)) {
     echo "$search is in the array.";
 } else {
