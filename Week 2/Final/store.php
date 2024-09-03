@@ -1,9 +1,9 @@
 <?php
 
 class Store {
-    private $name;
-    private $image;
-    private $description;
+    private string $name;
+    private string $image;
+    private string $description;
     private $products = array();
 
     public function __construct($name, $image, $description) {
