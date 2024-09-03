@@ -15,4 +15,5 @@ $store->addProduct($product12);
 $product13 = new Product("Xiaomi Smart Phone", "assets/product13.jpg", 670);
 $store->addProduct($product13);
 
+//comment
 ?>
