@@ -56,3 +56,34 @@ The application uses a MySQL database with a table called `notes`, which contain
 - MySQL
 - Composer (for dependency management)
 - Web Server (Apache or Nginx)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd todo-app
+   ```
+
+3. Install PHP dependencies via Composer:
+   ```bash
+   composer install
+   ```
+
+4. Set up your database:
+   - Create a MySQL database and update the database credentials in the `.env` file or in the database configuration file.
+   - Run the SQL script to create the `notes` table.
+
+5. Start the local server:
+   ```bash
+   php -S localhost:8000
+   ```
+
+6. Access the app at `http://localhost:8000`.
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
