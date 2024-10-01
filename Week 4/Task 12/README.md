@@ -56,9 +56,3 @@ The application uses a MySQL database with a table called `notes`, which contain
 - MySQL
 - Composer (for dependency management)
 - Web Server (Apache or Nginx)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/todo-app.git
